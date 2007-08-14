@@ -6,6 +6,7 @@ Group:		Monitoring
 License:	GPLv2+
 URL:		http://jarok.cs.ohiou.edu/software/tcptrace/tcptrace.html
 Source:		http://jarok.cs.ohiou.edu/software/tcptrace/download/%{name}-%{version}.tar.gz
+BuildRequires:	libpcap-devel
 %description
 tcptrace is a tool written by Shawn Ostermann at Ohio University, for
 analysis of TCP dump files. It can take as input the files produced by
