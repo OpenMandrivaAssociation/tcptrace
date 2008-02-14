@@ -3,6 +3,7 @@ Version:	6.6.7
 Release:	%mkrel 1
 Summary:	Tool for analysis of TCP dump files
 Group:		Monitoring
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	GPLv2+
 URL:		http://jarok.cs.ohiou.edu/software/tcptrace/tcptrace.html
 Source:		http://jarok.cs.ohiou.edu/software/tcptrace/download/%{name}-%{version}.tar.gz
