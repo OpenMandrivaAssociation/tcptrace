@@ -1,6 +1,6 @@
 Name:		tcptrace
 Version:	6.6.7
-Release:	%mkrel 3
+Release:	%mkrel 4
 Summary:	Tool for analysis of TCP dump files
 Group:		Monitoring
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
