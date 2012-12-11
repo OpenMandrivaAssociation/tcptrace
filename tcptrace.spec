@@ -36,3 +36,30 @@ export CHGRPPROG='echo "**** chgrp "'
 %{_bindir}/%{name}
 %{_mandir}/man1/%{name}.1.*
 
+
+
+%changelog
+* Sun Sep 20 2009 Thierry Vignaud <tvignaud@mandriva.com> 6.6.7-6mdv2010.0
++ Revision: 445384
+- rebuild
+
+* Wed Oct 29 2008 Oden Eriksson <oeriksson@mandriva.com> 6.6.7-5mdv2009.1
++ Revision: 298411
+- rebuilt against libpcap-1.0.0
+
+* Sat Aug 02 2008 Thierry Vignaud <tvignaud@mandriva.com> 6.6.7-4mdv2009.0
++ Revision: 261436
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 6.6.7-3mdv2009.0
++ Revision: 254265
+- rebuild
+
+* Thu Feb 14 2008 Thierry Vignaud <tvignaud@mandriva.com> 6.6.7-1mdv2008.1
++ Revision: 168289
+- fix no-buildroot-tag
+
+* Tue Aug 14 2007 Nicolas Vigier <nvigier@mandriva.com> 6.6.7-1mdv2008.0
++ Revision: 63307
+- Import tcptrace
+
